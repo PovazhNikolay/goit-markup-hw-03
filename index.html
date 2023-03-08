@@ -4,6 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <title>webstud</title>
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -15,98 +24,103 @@
   </head>
   <body>
     <!-- заголовок -->
-    <header class="header main">
-      <nav class="menu-list-main list">
-        <a class="nav-logo link menu-list-item" href="./index.html"
-          >Web<span class="logo-black">Studio</span></a
-        >
+    <div class="container head">
+      <header class="header main">
+        <nav class="menu-list-main list">
+          <a class="nav-logo link page-logo" href="./index.html"
+            >Web<span class="logo-black">Studio</span></a
+          >
 
-        <ul class="menu-list mail-link link list">
-          <li>
-            <a class="menu-list link menu-list-effect" href="./index.html"
-              >Studio</a
-            >
-          </li>
-          <li>
-            <a class="menu-list link menu-list-effect" href="./portfolio.html"
-              >Portfolio</a
-            >
-          </li>
-          <li>
-            <a class="menu-list link menu-list-effect" href="">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-      <address class="menu-contacts list">
-        <ul class="menu-contacts list">
-          <li>
-            <a
-              class="mail-link link menu-list-effect"
-              href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
+          <ul class="header-menu mail-link link list">
+            <li class="header-item">
+              <a class="menu-list link menu-list-effect" href="./index.html"
+                >Studio</a
+              >
+            </li>
+            <li class="header-item">
+              <a class="menu-list link menu-list-effect" href="./portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li>
+              <a class="menu-list link menu-list-effect" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="menu-contacts list">
+          <ul class="menu-contacts list">
+            <li>
+              <a
+                class="mail-link link menu-list-effect"
+                href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
 
-          <li>
-            <a class="mail-link link menu-list-effect" href="tel:+110001111111"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
-    </header>
-
+            <li>
+              <a
+                class="mail-link link menu-list-effect"
+                href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </header>
+    </div>
     <main>
       <!-- <section 1 hero> -->
+      <div class="container-hero">
+        <section class="section-hero">
+          <h1 class="section-hero-title">
+            Effective Solutions for Your Business
+          </h1>
 
-      <section class="section-hero">
-        <h1 class="section-hero-title">
-          Effective Solutions for Your Business
-        </h1>
-
-        <button class="section-hero-btn" type="button">Order Service</button>
-      </section>
+          <button class="section-hero-btn" type="button">Order Service</button>
+        </section>
+      </div>
 
       <!-- <section>2 info -->
+      <div class="container-info">
+        <section class="sect-info">
+          <h2 hidden class="sect-info-title">
+            Our goal is to identify the business
+          </h2>
+          <ul class="list-info list">
+            <li>
+              <h3 class="section-info-title">Strategy</h3>
+              <p class="section-info-description">
+                Our goal is to identify the business problem to walk away with
+                the perfect and creative solution.
+              </p>
+            </li>
 
-      <section class="sect-info">
-        <h2 hidden class="sect-info-title">
-          Our goal is to identify the business
-        </h2>
-        <ul class="list-info list">
-          <li>
-            <h3 class="section-info-title">Strategy</h3>
-            <p class="section-info-description">
-              Our goal is to identify the business problem to walk away with the
-              perfect and creative solution.
-            </p>
-          </li>
+            <li>
+              <h3 class="section-info-title">Punctuality</h3>
+              <p class="section-info-description">
+                Bring the key message to the brand's audience for the best price
+                within the shortest possible time.
+              </p>
+            </li>
 
-          <li>
-            <h3 class="section-info-title">Punctuality</h3>
-            <p class="section-info-description">
-              Bring the key message to the brand's audience for the best price
-              within the shortest possible time.
-            </p>
-          </li>
+            <li>
+              <h3 class="section-info-title">Diligence</h3>
+              <p class="section-info-description">
+                Research and confirm brands that present the strongest digital
+                growth opportunities and minimize risk.
+              </p>
+            </li>
 
-          <li>
-            <h3 class="section-info-title">Diligence</h3>
-            <p class="section-info-description">
-              Research and confirm brands that present the strongest digital
-              growth opportunities and minimize risk.
-            </p>
-          </li>
-
-          <li>
-            <h3 class="section-info-title">Technologies</h3>
-            <p class="section-info-description">
-              Design practice focused on digital experiences. We bring forth a
-              deep passion for problem-solving.
-            </p>
-          </li>
-        </ul>
-      </section>
+            <li>
+              <h3 class="section-info-title">Technologies</h3>
+              <p class="section-info-description">
+                Design practice focused on digital experiences. We bring forth a
+                deep passion for problem-solving.
+              </p>
+            </li>
+          </ul>
+        </section>
+      </div>
 
       <!-- <section> 3 product -->
 
