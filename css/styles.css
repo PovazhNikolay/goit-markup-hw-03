@@ -37,6 +37,12 @@ body {
   text-transform: uppercase;
 }
 .nav-logo {
+  display: flex;
+  align-items: center;
+ 
+
+  /* ‹mod 3 */
+
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -58,6 +64,7 @@ body {
 }
 
 .menu-contacts {
+  display: flex;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -77,6 +84,7 @@ body {
   color: #404bbf;
 }
 .logo-black {
+  display: flex;
   color: #2e2f42;
 }
 
@@ -259,11 +267,29 @@ focus {
 /* <-- заголовок -- >  */
 
 
-
-.container head { 
-  display:flex;
+.container-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
   background-color: aquamarine;
-  width: 480px;
+  width: 1128px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.header-menu {
+  display: flex;
+  
+}
+
+.header-item:not(:last-child) {
+  margin-right: 10px;
+}
+.header-main {
+  display: flex;
+}
+
+.menu-list-main {
+  display: flex;
 }
