@@ -255,3 +255,15 @@ focus {
 }
 
 /* modul 3----------------------------- */
+
+/* <-- заголовок -- >  */
+
+
+
+.container head { 
+  display:flex;
+  background-color: aquamarine;
+  width: 480px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
