@@ -7,6 +7,19 @@ html {
   box-sizing: inherit;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+ul {
+  margin-left: 0;
+  padding: 0;
+}
 body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -18,7 +31,7 @@ body {
 .link {
   text-decoration: none;
 }
-/* заголовок */
+/* заголовок -----------------------------*/
 
 .menu-list-item {
   text-transform: uppercase;
@@ -70,7 +83,7 @@ body {
 .list {
   list-style: none;
 }
-/* section 1  hero*/
+/* section 1  hero--------------------------*/
 
 .section-hero {
   background-color: #2e2f42;
@@ -106,7 +119,7 @@ focus {
   color: #ffffff;
 }
 
-/* section 2 info */
+/* section 2 info -----------------------------*/
 
 .sect-info-title {
   line-height: 1.07;
@@ -143,7 +156,7 @@ focus {
   color: #2e2f42;
 }
 
-/* section 4 team */
+/* section 4 team -----------------------------*/
 .sect-team {
   background-color: #f4f4fd;
 }
@@ -179,7 +192,7 @@ focus {
   color: #434455;
 }
 
-/* footer */
+/* footer -----------------------------*/
 
 .footer {
   background-color: #2e2f42;
@@ -199,7 +212,7 @@ focus {
   color: #f4f4fd;
 }
 
-/* portfolio */
+/* portfolio----------------------------- */
 
 /* кнопки  */
 
@@ -241,4 +254,4 @@ focus {
   color: #f4f4fd;
 }
 
-/* modul 3 */
+/* modul 3----------------------------- */
