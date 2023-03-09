@@ -20,6 +20,10 @@ ul {
   margin-left: 0;
   padding: 0;
 }
+
+img {
+  display: block;
+}
 body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -39,7 +43,8 @@ body {
 .nav-logo {
   display: flex;
   align-items: center;
- 
+
+  margin-left: 156px;
 
   /* ‹mod 3 */
 
@@ -63,8 +68,16 @@ body {
   list-style: none;
 }
 
+.header-menu {
+  justify-content: space-between;
+  margin-left: 347px;
+  margin-right: auto;
+  gap: 40px;
+}
+
 .menu-contacts {
   display: flex;
+
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -266,30 +279,39 @@ focus {
 
 /* <-- заголовок -- >  */
 
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 2px solid red;
+}
 
 .container-head {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  
+
   background-color: aquamarine;
-  width: 1128px;
-  margin: 0 auto;
-  padding: 0 15px;
 }
 
 .header-menu {
   display: flex;
-  
+  margin-left: auto;
+  gap: 10px;
+  justify-content: space-between;
 }
 
 .header-item:not(:last-child) {
   margin-right: 10px;
 }
 .header-main {
-  display: flex;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .menu-list-main {
   display: flex;
 }
+
+/**------------- HEADER ---------------*/
