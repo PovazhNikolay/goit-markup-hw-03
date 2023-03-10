@@ -70,14 +70,14 @@ body {
 
 .header-menu {
   justify-content: space-between;
-  margin-left: 347px;
+  margin-left: 332px;
   margin-right: auto;
   gap: 40px;
 }
 
 .menu-contacts {
   display: flex;
-  margin-right: 156px;
+  margin-right: 126px;
 
   font-style: normal;
   font-weight: 400;
@@ -128,7 +128,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
- 
+
   align-items: center;
   letter-spacing: 0.04em;
 
@@ -189,7 +189,7 @@ focus {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-
+  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 
@@ -278,7 +278,12 @@ focus {
   color: #f4f4fd;
 }
 
-/* modul 3----------------------------- */
+/* modul 3----------- block------------------ */
+
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 
 /* <-- заголовок -- >  */
 
@@ -316,14 +321,43 @@ focus {
   display: flex;
 }
 
-/**------------- SECTION 1 HERO ---------------*/
+/**------------- SECTION 1 HERO -------block--------*/
+
 .container-hero {
   padding-top: 200px;
   padding-bottom: 200px;
   max-width: 1440;
 }
 
-.section {
+
+
+/**------------- SECTION 2 INFO ------block---------*/
+
+.list-info {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  gap: 24px;
+  padding-left: 126px;
+  padding-right: 126px;
+}
+
+/**------------- SECTION 3 PRODUCT ------block---------*/
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
   text-align: center;
-  max-width: 1440;
+  gap: 24px;
+  padding-left: 126px;
+  padding-right: 126px;
+}
+
+/**------------- FOOTER ------block---------*/
+
+.logo-futer {
+}
+  
+.footer-style {
+
 }
