@@ -77,6 +77,7 @@ body {
 
 .menu-contacts {
   display: flex;
+  margin-right: 156px;
 
   font-style: normal;
   font-weight: 400;
@@ -121,11 +122,13 @@ body {
 }
 
 .section-hero-btn {
+  width: 169px;
+  height: 56px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
+ 
   align-items: center;
   letter-spacing: 0.04em;
 
@@ -291,19 +294,18 @@ focus {
   display: flex;
   align-items: center;
   justify-content: space-between;
-
-  background-color: aquamarine;
+  background-color: #4d5ae545;
 }
 
 .header-menu {
   display: flex;
-  margin-left: auto;
+  margin-left: 76px;
   gap: 10px;
   justify-content: space-between;
 }
 
 .header-item:not(:last-child) {
-  margin-right: 10px;
+  margin-right: auto;
 }
 .header-main {
   padding-top: 24px;
@@ -314,4 +316,14 @@ focus {
   display: flex;
 }
 
-/**------------- HEADER ---------------*/
+/**------------- SECTION 1 HERO ---------------*/
+.container-hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  max-width: 1440;
+}
+
+.section {
+  text-align: center;
+  max-width: 1440;
+}
