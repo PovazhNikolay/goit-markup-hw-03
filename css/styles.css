@@ -233,15 +233,21 @@ focus {
 /* footer -----------------------------*/
 
 .footer {
+  
+
+
+
   display: flex;
   flex-wrap: wrap;
   align-content: center;
   flex-basis: auto;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  background: #2e2f42;
+ 
+  background: #2E2F42;
+
+
+
 }
 
 .footer-description {
@@ -397,10 +403,11 @@ focus {
   flex-wrap: wrap;
   align-content: center;
   flex-basis: auto;
-
-  margin-right: auto;
   padding-top: 100px;
   padding-bottom: 100px;
+
+  margin-right: auto;
+ 
 }
 
 /**------------- PORTFOLIO ------block---------*/
