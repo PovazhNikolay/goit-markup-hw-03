@@ -429,3 +429,12 @@ focus {
   flex-basis: auto;
   padding-bottom: 120px;
 }
+
+
+
+.border-card {
+  border-left: 1px solid #E7E9FC;
+  border-right: 1px solid #E7E9FC;
+  border-bottom: 1px solid #E7E9FC;
+  padding-left: 16px;
+}
