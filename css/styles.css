@@ -42,7 +42,8 @@ body {
 }
 .nav-logo {
   display: flex;
-  margin-right: 76px;
+  margin-right: auto;
+  padding-right: 76px;
 
   /* ‹mod 3 */
 
@@ -78,7 +79,7 @@ body {
   display: flex;
   padding-left: 0;
   margin: 0;
-
+  gap: 40px;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -88,7 +89,7 @@ body {
 }
 .mail-link {
   color: #434455;
-  margin-left: 40px;
+  gap: 40px;
 }
 
 .menu-list-effect:hover {
@@ -233,21 +234,14 @@ focus {
 /* footer -----------------------------*/
 
 .footer {
-  
-
-
-
   display: flex;
   flex-wrap: wrap;
   align-content: center;
   flex-basis: auto;
   margin-left: auto;
   margin-right: auto;
- 
-  background: #2E2F42;
 
-
-
+  background: #2e2f42;
 }
 
 .footer-description {
@@ -332,7 +326,7 @@ focus {
 .container-head {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .header-menu {
@@ -353,11 +347,8 @@ focus {
   align-items: center;
 }
 
-.page-logo {
-  margin-right: 76px;
-}
-
 .address {
+  display: flex;
   margin-left: auto;
 }
 
@@ -400,14 +391,12 @@ focus {
 /**------------- FOOTER ------block---------*/
 
 .footer-style {
-  flex-wrap: wrap;
   align-content: center;
   flex-basis: auto;
   padding-top: 100px;
   padding-bottom: 100px;
 
   margin-right: auto;
- 
 }
 
 /**------------- PORTFOLIO ------block---------*/
@@ -437,11 +426,9 @@ focus {
   padding-bottom: 120px;
 }
 
-
-
 .border-card {
-  border-left: 1px solid #E7E9FC;
-  border-right: 1px solid #E7E9FC;
-  border-bottom: 1px solid #E7E9FC;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+  border-bottom: 1px solid #e7e9fc;
   padding-left: 16px;
 }
