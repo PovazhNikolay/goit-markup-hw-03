@@ -42,8 +42,7 @@ body {
 }
 .nav-logo {
   display: flex;
-
-
+  margin-right: 76px;
  
 
   /* ‹mod 3 */
@@ -57,6 +56,9 @@ body {
   text-transform: uppercase;
 }
 .menu-list {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -69,9 +71,7 @@ body {
 }
 
 .header-menu {
-  justify-content: space-between;
-  margin-left: 332px;
-  margin-right: auto;
+  display: flex;
   gap: 40px;
 }
 
@@ -114,29 +114,35 @@ body {
 }
 
 .section-hero-title {
-  font-weight: 700;
+  max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
   font-size: 56px;
   line-height: 1.07;
-  text-align: center;
   letter-spacing: 0.02em;
 
   color: #ffffff;
 }
 
 .section-hero-btn {
-  width: 169px;
-  height: 56px;
-  font-family: "Roboto", sans-serif;
+  radius: 4px;
+  border: transparent;
+  padding: 16px 32px;
+  text-transform: none;
+  color: #ffffff;
+  background: #4d5ae5;
+  cursor: pointer;
+}
+
+.btn-style {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-
-  align-items: center;
   letter-spacing: 0.04em;
 
-  color: #ffffff;
-  background-color: #4d5ae5;
-  cursor: pointer;
+  border-radius: 4px;
 }
 
 .section-hero-btn:hover,
@@ -147,6 +153,15 @@ focus {
 
 /* section 2 info -----------------------------*/
 
+.container-info {
+  padding-top: 120px;
+  width: 1158px;
+  /* padding-left: 15px; */
+  /* padding-right: 15px; */
+  margin: 0 auto;
+  
+}
+
 .sect-info-title {
   line-height: 1.07;
 }
@@ -156,7 +171,7 @@ focus {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-
+  padding-bottom: 8px;
   color: #2e2f42;
 }
 
@@ -221,18 +236,28 @@ focus {
 /* footer -----------------------------*/
 
 .footer {
-  background-color: #2e2f42;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  flex-basis: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
   padding-bottom: 100px;
-    padding-top: 100px;
+  background: #2e2f42;
 }
 
+
+
+
+
 .footer-description {
-  font-weight: 400;
+  max-width: 264px;
+ 
+padding-top: 16px;
   font-size: 16px;
   line-height: 1.33;
-
   letter-spacing: 0.02em;
-
   color: #e7e9fc;
 }
 
@@ -242,10 +267,7 @@ focus {
 
 /* portfolio----------------------------- */
 
-/* кнопки  */
 
-.list-item {
-}
 
 .btn-font {
   font-family: "Roboto", sans-serif;
@@ -266,6 +288,8 @@ focus {
   line-height: 1.2;
   letter-spacing: 0.02em;
 
+  padding-top: 32px;
+
   color: #2e2f42;
 }
 
@@ -274,6 +298,7 @@ focus {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  padding-bottom: 32px;
 }
 
 .btn-font:hover,
@@ -287,6 +312,7 @@ focus {
 .section {
   padding-top: 120px;
   padding-bottom: 120px;
+  margin: 0;
 }
 
 /* <-- заголовок -- >  */
@@ -296,57 +322,52 @@ focus {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  outline: 2px solid red;
+  
 }
 
 .container-head {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #4d5ae545;
 }
 
 .header-menu {
   display: flex;
   margin: 0;
   gap: 40px;
- 
 }
 
 .header-item:not(:last-child) {
   margin-right: auto;
 }
 .header-main {
-  border-bottom: 1px solid #E7E9FC;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .menu-list-main {
   display: flex;
-align-items: center;
+  align-items: center;
 }
 
-.page-logo{
+.page-logo {
   margin-right: 76px;
 }
 
-.address{
+.address {
   margin-left: auto;
 }
-
-
-
 
 /**------------- SECTION 1 HERO -------block--------*/
 
 .container-hero {
-  padding-top: 200px;
-  padding-bottom: 200px;
-  max-width: 1440;
+  flex-basis: auto;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 188px 0;
 }
 
-.btn-style{
-
-
+.btn-style {
 }
 
 /**------------- SECTION 2 INFO ------block---------*/
@@ -356,7 +377,9 @@ align-items: center;
   justify-content: space-between;
   text-align: left;
   gap: 24px;
- 
+
+
+  
 }
 
 /**------------- SECTION 3 PRODUCT ------block---------*/
@@ -367,32 +390,59 @@ align-items: center;
   text-align: center;
   gap: 24px;
   padding-top: 72px;
-
 }
 
-
-
-.team-card{
-padding-top:  32px;
-padding-bottom: 32px;
-padding-left: 16px;
-padding-right: 16px;
+.team-card {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
-
-
 
 /**------------- FOOTER ------block---------*/
 
-.logo-futer {
 
 
-}
-  
 .footer-style {
-display: flex;
-justify-content: center;
-flex-direction: column;
-gap: 15px;
-
-
+  
+  flex-wrap: wrap;
+  align-content: center;
+  flex-basis: auto;
+  
+  margin-right: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  
 }
+
+/**------------- PORTFOLIO ------block---------*/
+
+
+/* кнопки  */
+
+
+
+.list-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-basis: auto;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+ padding-bottom: 72px;
+  padding-top: 96px;
+  gap: 24px;
+}
+
+/**------------- PORTFOLIO ---section-Apply--block---------*/
+
+
+.list-apply {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+  flex-basis: auto;
+  padding-bottom: 120px;
+}
+
