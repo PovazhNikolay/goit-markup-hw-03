@@ -459,6 +459,7 @@ focus {
   gap: 48px 24px;
   flex-basis: auto;
   padding-bottom: 120px;
+  margin: 0;
 }
 
 .border-card {
