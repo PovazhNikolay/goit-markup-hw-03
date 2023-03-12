@@ -56,9 +56,9 @@ body {
   text-transform: uppercase;
 }
 .menu-list {
-  display: block;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  display: flex;
+  align-items: center;
+  height: 72px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -68,11 +68,6 @@ body {
 
 .list {
   list-style: none;
-}
-
-.header-menu {
-  display: flex;
-  gap: 40px;
 }
 
 .menu-contacts {
@@ -94,10 +89,12 @@ body {
 
 .menu-list-effect:hover {
   color: #404bbf;
+  background-color: #ffffff;
 }
 
 .menu-list-effect:focus {
   color: #404bbf;
+  background-color: #ffffff;
 }
 .logo-black {
   display: flex;
@@ -111,6 +108,7 @@ body {
 
 .section-hero {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 
 .section-hero-title {
@@ -152,11 +150,27 @@ focus {
 
 /* section 2 info -----------------------------*/
 
+.vis-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.sect-info {
+  padding: 120px 0;
+  margin: 0;
+}
+
 .container-info {
-  padding-top: 120px;
   width: 1158px;
-  /* padding-left: 15px; */
-  /* padding-right: 15px; */
+
   margin: 0 auto;
 }
 
@@ -167,9 +181,9 @@ focus {
 .section-info-title {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2;
+  line-height: 1.4;
   letter-spacing: 0.02em;
-  padding-bottom: 8px;
+
   color: #2e2f42;
 }
 
@@ -219,6 +233,7 @@ focus {
   letter-spacing: 0.02em;
 
   color: #2e2f42;
+  padding-bottom: 8px;
 }
 
 .section-team-description {
@@ -234,28 +249,47 @@ focus {
 /* footer -----------------------------*/
 
 .footer {
-  display: flex;
-  flex-wrap: wrap;
-  align-content: center;
-  flex-basis: auto;
-  margin-left: auto;
-  margin-right: auto;
-
   background: #2e2f42;
 }
 
-.footer-description {
-  max-width: 264px;
+.footer-style{
+  display: block;
+  margin: 0;
+  padding-top: 100px;
+  padding-bottom: 100px;
+ 
+}
 
+.footer-description {
+  display: block;
   padding-top: 16px;
+  max-width: 264px;
+  margin: 0;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
   font-size: 16px;
-  line-height: 1.33;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #e7e9fc;
 }
 
 .logo-white {
+ 
   color: #f4f4fd;
+}
+
+.logo-footer {
+ 
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
+  text-transform: uppercase;
 }
 
 /* portfolio----------------------------- */
@@ -355,30 +389,37 @@ focus {
 /**------------- SECTION 1 HERO -------block--------*/
 
 .container-hero {
-  flex-basis: auto;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  padding: 188px 0;
 }
 
 /**------------- SECTION 2 INFO ------block---------*/
 
 .list-info {
   display: flex;
-  justify-content: space-between;
-  text-align: left;
   gap: 24px;
+  margin: 0;
 }
 
 /**------------- SECTION 3 PRODUCT ------block---------*/
 
+.img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .list-item {
   display: flex;
-  justify-content: space-between;
   text-align: center;
   gap: 24px;
   padding-top: 72px;
+  margin: 0;
+}
+
+.sect-team-info {
+  background-color: #ffffff;
 }
 
 .team-card {
@@ -390,14 +431,8 @@ focus {
 
 /**------------- FOOTER ------block---------*/
 
-.footer-style {
-  align-content: center;
-  flex-basis: auto;
-  padding-top: 100px;
-  padding-bottom: 100px;
 
-  margin-right: auto;
-}
+
 
 /**------------- PORTFOLIO ------block---------*/
 
