@@ -35,6 +35,8 @@ body {
 .link {
   text-decoration: none;
 }
+
+
 /* заголовок -----------------------------*/
 
 .menu-list-item {
@@ -355,6 +357,7 @@ focus {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
+  cursor: pointer;
 }
 
 .container-head {
