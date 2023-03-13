@@ -6,6 +6,9 @@ html {
 *::after {
   box-sizing: inherit;
 }
+:root {
+  --brand-color: #2e2f42;
+}
 
 p,
 h1,
@@ -44,8 +47,8 @@ body {
 }
 .nav-logo {
   display: flex;
-  margin-right: auto;
-  padding-right: 76px;
+  margin-right: 76px;
+
 
   /* ‹mod 3 */
 
@@ -109,9 +112,11 @@ body {
 /* section 1  hero--------------------------*/
 
 .section-hero {
-  background-color: #2e2f42;
+  background-color: var(--brand-color);
   padding: 188px 0;
 }
+
+
 
 .section-hero-title {
   max-width: 496px;
@@ -251,7 +256,7 @@ focus {
 /* footer -----------------------------*/
 
 .footer {
-  background: #2e2f42;
+  background-color: var(--brand-color);
 }
 
 .footer-style{
@@ -357,7 +362,7 @@ focus {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  cursor: pointer;
+ 
 }
 
 .container-head {
