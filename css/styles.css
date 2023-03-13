@@ -8,6 +8,12 @@ html {
 }
 :root {
   --brand-color: #2e2f42;
+  --team-color: #f4f4fd;
+  --head-color: #4d5ae5;
+  --menu-color: #434455;
+  --menu-focus-color: #404bbf;
+  --menu-eff-color: #ffffff;
+  --fot-color: #e7e9fc;
 }
 
 p,
@@ -30,7 +36,7 @@ img {
 body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
-  color: #434455;
+  color: var(--menu-color);
 }
 .text-down-line link {
   text-decoration: none;
@@ -55,7 +61,7 @@ body {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: #4d5ae5;
+  color: var(--head-color);
   text-transform: uppercase;
 }
 .menu-list {
@@ -66,7 +72,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--brand-color);
 }
 
 .list {
@@ -83,25 +89,25 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--menu-color);
 }
 .mail-link {
-  color: #434455;
+  color: var(--menu-color);
   gap: 40px;
 }
 
 .menu-list-effect:hover {
-  color: #404bbf;
-  background-color: #ffffff;
+  color: var(--menu-color);
+  background-color: var(--menu-eff-color);
 }
 
 .menu-list-effect:focus {
-  color: #404bbf;
-  background-color: #ffffff;
+  color: var(--menu-focus-color);
+  background-color: var(--menu-eff-color);
 }
 .logo-black {
   display: flex;
-  color: #2e2f42;
+  color: var(--brand-color);
 }
 
 .list {
@@ -123,15 +129,15 @@ body {
   line-height: 1.07;
   letter-spacing: 0.02em;
 
-  color: #ffffff;
+  color: var(--menu-eff-color);
 }
 
 .section-hero-btn {
   border: transparent;
   padding: 16px 32px;
   text-transform: none;
-  color: #ffffff;
-  background: #4d5ae5;
+  color: var(--menu-eff-color);
+  background: var(--head-color);
   cursor: pointer;
 }
 
@@ -147,8 +153,8 @@ body {
 
 .section-hero-btn:hover,
 focus {
-  background-color: #404bbf;
-  color: #ffffff;
+  background-color: var(--menu-focus-color);
+  color: var(--menu-eff-color);
 }
 
 /* section 2 info -----------------------------*/
@@ -186,7 +192,7 @@ focus {
   line-height: 1.4;
   letter-spacing: 0.02em;
 
-  color: #2e2f42;
+  color: var(--brand-color);
 }
 
 .section-info-description {
@@ -200,6 +206,11 @@ focus {
 
 /* section 3  product*/
 
+.title-marg{
+  margin-bottom: 72px;
+
+}
+
 .section-prod-title {
   font-weight: 700;
   font-size: 36px;
@@ -207,13 +218,13 @@ focus {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-
-  color: #2e2f42;
+  
+  color: var(--brand-color);
 }
 
 /* section 4 team -----------------------------*/
 .sect-team {
-  background-color: #f4f4fd;
+  background-color: var(--team-color);
 }
 
 .section-team-main {
@@ -224,7 +235,7 @@ focus {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 
-  color: #2e2f42;
+  color: var(--brand-color);
 }
 
 .section-team-title {
@@ -234,7 +245,7 @@ focus {
 
   letter-spacing: 0.02em;
 
-  color: #2e2f42;
+  color: var(--brand-color);
   padding-bottom: 8px;
 }
 
@@ -245,7 +256,7 @@ focus {
 
   letter-spacing: 0.02em;
 
-  color: #434455;
+  color: var(--menu-color);
 }
 
 /* footer -----------------------------*/
@@ -268,11 +279,11 @@ focus {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #e7e9fc;
+  color: var(--fot-color);
 }
 
 .logo-white {
-  color: #f4f4fd;
+  color: var(--team-color);
 }
 
 .logo-footer {
@@ -282,7 +293,7 @@ focus {
   font-size: 18px;
   line-height: 1.16;
   letter-spacing: 0.03em;
-  color: #4d5ae5;
+  color: var(--head-color);
   text-transform: uppercase;
 }
 
@@ -300,10 +311,10 @@ focus {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  border: 1px solid #e7e9fc;
+  border: 1px solid var(--fot-color);
   border-radius: 4px;
-  background: #f4f4fd;
-  color: #4d5ae5;
+  background: var(--team-color);
+  color: var(--head-color);
   cursor: pointer;
 }
 
@@ -320,20 +331,20 @@ focus {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--menu-color);
   padding-bottom: 32px;
 }
 
 .btn-font:hover,
 :focus {
-  background-color: #404bbf;
-  color: #f4f4fd;
+  background-color: var(--menu-focus-color);
+  color: var(--team-color);
 }
 
 /* modul 3----------- block------------------ */
 
 .border {
-  border-bottom: 1px solid #e7e9fc;
+  border-bottom: 1px solid var(--fot-color);
 }
 
 .section {
@@ -367,7 +378,7 @@ focus {
   margin-right: auto;
 }
 .header-main {
-  border-bottom: 1px solid #e7e9fc;
+  border-bottom: 1px solid var(--fot-color);
 }
 
 .menu-list-main {
@@ -417,7 +428,7 @@ focus {
 }
 
 .sect-team-info {
-  background-color: #ffffff;
+  background-color: var(--team-color);
 }
 
 .team-card {
@@ -458,8 +469,8 @@ focus {
 }
 
 .border-card {
-  border-left: 1px solid #e7e9fc;
-  border-right: 1px solid #e7e9fc;
-  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid var(--fot-color);
+  border-right: 1px solid var(--fot-color);
+  border-bottom: 1px solid var(--fot-color);
   padding-left: 16px;
 }
