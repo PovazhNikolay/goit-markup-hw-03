@@ -158,10 +158,6 @@ focus {
 }
 
 /* section 2 info -----------------------------*/
-.sect-info {
-  margin-top: 120px;
-  margin-bottom: 120px;
-}
 
 .vis-hidden {
   position: absolute;
@@ -191,7 +187,7 @@ focus {
   font-size: 20px;
   line-height: 1.4;
   letter-spacing: 0.02em;
-
+  padding-bottom: 8px;
   color: var(--brand-color);
 }
 
@@ -206,11 +202,6 @@ focus {
 
 /* section 3  product*/
 
-.title-marg{
-  margin-bottom: 72px;
-
-}
-
 .section-prod-title {
   font-weight: 700;
   font-size: 36px;
@@ -218,10 +209,13 @@ focus {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  
+  padding-bottom: 72px;
   color: var(--brand-color);
 }
 
+.sect-prod {
+  padding-bottom: 120px;
+}
 /* section 4 team -----------------------------*/
 .sect-team {
   background-color: var(--team-color);
@@ -234,7 +228,7 @@ focus {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-
+  padding-bottom: 72px;
   color: var(--brand-color);
 }
 
@@ -242,20 +236,16 @@ focus {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-
   letter-spacing: 0.02em;
-
   color: var(--brand-color);
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .section-team-description {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-
   letter-spacing: 0.02em;
-
   color: var(--menu-color);
 }
 
@@ -263,18 +253,19 @@ focus {
 
 .footer {
   background-color: var(--brand-color);
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .footer-style {
   display: block;
   margin: 0;
-  padding-top: 100px;
-  padding-bottom: 100px;
+
 }
 
 .footer-description {
   display: block;
-  margin-top: 16px;
+  padding-top: 16px;
   max-width: 264px;
   font-size: 16px;
   line-height: 1.5;
@@ -323,7 +314,7 @@ focus {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  padding-top: 32px;
+ padding-bottom: 8px;
   color: #2e2f42;
 }
 
@@ -332,7 +323,7 @@ focus {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--menu-color);
-  padding-bottom: 32px;
+  
 }
 
 .btn-font:hover,
@@ -409,11 +400,6 @@ focus {
 
 /**------------- SECTION 3 PRODUCT ------block---------*/
 
-.sect-prod {
-  padding-top: 120px;
-  margin-bottom: 120px;
-}
-
 .img {
   display: block;
   max-width: 100%;
@@ -445,6 +431,11 @@ focus {
 
 /* кнопки  */
 
+.btn-padd{
+  padding-bottom: 120px;
+  padding-top: 96px;
+}
+
 .list-btn {
   display: flex;
   align-items: center;
@@ -452,8 +443,8 @@ focus {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 72px;
-  margin-top: 96px;
+  padding-bottom: 72px;
+ 
   gap: 24px;
 }
 
@@ -464,11 +455,12 @@ focus {
   flex-wrap: wrap;
   gap: 48px 24px;
   flex-basis: auto;
-  padding-bottom: 120px;
   margin: 0;
 }
 
 .border-card {
+  padding-top: 32px;
+  padding-bottom: 32px;
   border-left: 1px solid var(--fot-color);
   border-right: 1px solid var(--fot-color);
   border-bottom: 1px solid var(--fot-color);
