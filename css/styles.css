@@ -187,7 +187,7 @@ focus {
   font-size: 20px;
   line-height: 1.4;
   letter-spacing: 0.02em;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
   color: var(--brand-color);
 }
 
@@ -214,7 +214,7 @@ focus {
 }
 
 .sect-prod {
-  padding-bottom: 120px;
+  margin-bottom: 120px;
 }
 /* section 4 team -----------------------------*/
 .sect-team {
@@ -314,8 +314,8 @@ focus {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
- padding-bottom: 8px;
-  color: #2e2f42;
+ margin-bottom: 8px;
+  color: var(--brand-color);
 }
 
 .section-descr {
@@ -342,6 +342,11 @@ focus {
   padding-top: 120px;
   padding-bottom: 120px;
   margin: 0;
+}
+
+.step{
+  margin-top: 120px;
+  margin-bottom: 120px;
 }
 
 /* <-- заголовок -- >  */
@@ -414,7 +419,8 @@ focus {
 }
 
 .sect-team-info {
-  background-color: var(--team-color);
+  background-color: var(--menu-eff-color);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-card {
@@ -443,7 +449,7 @@ focus {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
  
   gap: 24px;
 }
@@ -465,4 +471,6 @@ focus {
   border-right: 1px solid var(--fot-color);
   border-bottom: 1px solid var(--fot-color);
   padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 0px 0px 4px 4px;
 }
