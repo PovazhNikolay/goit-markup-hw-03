@@ -39,7 +39,6 @@ body {
   text-decoration: none;
 }
 
-
 /* заголовок -----------------------------*/
 
 .menu-list-item {
@@ -48,7 +47,6 @@ body {
 .nav-logo {
   display: flex;
   margin-right: 76px;
-
 
   /* ‹mod 3 */
 
@@ -116,8 +114,6 @@ body {
   padding: 188px 0;
 }
 
-
-
 .section-hero-title {
   max-width: 496px;
   margin-left: auto;
@@ -156,6 +152,10 @@ focus {
 }
 
 /* section 2 info -----------------------------*/
+.sect-info {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
 
 .vis-hidden {
   position: absolute;
@@ -168,11 +168,6 @@ focus {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
-
-.sect-info {
-  padding: 120px 0;
-  margin: 0;
 }
 
 .container-info {
@@ -259,23 +254,17 @@ focus {
   background-color: var(--brand-color);
 }
 
-.footer-style{
+.footer-style {
   display: block;
   margin: 0;
   padding-top: 100px;
   padding-bottom: 100px;
- 
 }
 
 .footer-description {
   display: block;
-  padding-top: 16px;
+  margin-top: 16px;
   max-width: 264px;
-  margin: 0;
-
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -283,12 +272,10 @@ focus {
 }
 
 .logo-white {
- 
   color: #f4f4fd;
 }
 
 .logo-footer {
- 
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
@@ -362,7 +349,6 @@ focus {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
- 
 }
 
 .container-head {
@@ -412,6 +398,11 @@ focus {
 
 /**------------- SECTION 3 PRODUCT ------block---------*/
 
+.sect-prod {
+  padding-top: 120px;
+  margin-bottom: 120px;
+}
+
 .img {
   display: block;
   max-width: 100%;
@@ -422,7 +413,6 @@ focus {
   display: flex;
   text-align: center;
   gap: 24px;
-  padding-top: 72px;
   margin: 0;
 }
 
@@ -435,12 +425,10 @@ focus {
   padding-bottom: 32px;
   padding-left: 16px;
   padding-right: 16px;
+  border-radius: 0px 0px 4px 4px;
 }
 
 /**------------- FOOTER ------block---------*/
-
-
-
 
 /**------------- PORTFOLIO ------block---------*/
 
@@ -450,12 +438,11 @@ focus {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-basis: auto;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 72px;
-  padding-top: 96px;
+  margin-bottom: 72px;
+  margin-top: 96px;
   gap: 24px;
 }
 
