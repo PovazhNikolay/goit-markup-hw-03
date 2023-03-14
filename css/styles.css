@@ -209,12 +209,12 @@ focus {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
   color: var(--brand-color);
 }
 
 .sect-prod {
-  margin-bottom: 120px;
+  padding-bottom: 120px;
 }
 /* section 4 team -----------------------------*/
 .sect-team {
@@ -228,7 +228,7 @@ focus {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
   color: var(--brand-color);
 }
 
@@ -260,12 +260,11 @@ focus {
 .footer-style {
   display: block;
   margin: 0;
-
 }
 
 .footer-description {
   display: block;
-  padding-top: 16px;
+  margin-top: 16px;
   max-width: 264px;
   font-size: 16px;
   line-height: 1.5;
@@ -314,7 +313,7 @@ focus {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
- margin-bottom: 8px;
+  margin-bottom: 8px;
   color: var(--brand-color);
 }
 
@@ -323,7 +322,6 @@ focus {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--menu-color);
-  
 }
 
 .btn-font:hover,
@@ -344,9 +342,9 @@ focus {
   margin: 0;
 }
 
-.step{
-  margin-top: 120px;
-  margin-bottom: 120px;
+.step {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 /* <-- заголовок -- >  */
@@ -437,7 +435,7 @@ focus {
 
 /* кнопки  */
 
-.btn-padd{
+.btn-padd {
   padding-bottom: 120px;
   padding-top: 96px;
 }
@@ -450,7 +448,7 @@ focus {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 72px;
- 
+
   gap: 24px;
 }
 
@@ -460,7 +458,6 @@ focus {
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
-  flex-basis: auto;
   margin: 0;
 }
 
@@ -472,5 +469,4 @@ focus {
   border-bottom: 1px solid var(--fot-color);
   padding-left: 16px;
   padding-right: 16px;
-  border-radius: 0px 0px 4px 4px;
 }
